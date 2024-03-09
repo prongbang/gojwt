@@ -10,6 +10,12 @@ go get github.com/prongbang/gojwt
 
 ## How to use
 
+- Random Secret Key
+
+```shell
+openssl rand -hex 32
+```
+
 ```go
 j := gojwt.New()
 ```

@@ -16,6 +16,8 @@ go get github.com/prongbang/gojwt
 openssl rand -hex 32
 ```
 
+- New instance
+
 ```go
 j := gojwt.New()
 ```
